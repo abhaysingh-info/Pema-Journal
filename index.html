@@ -6,23 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pema Journal</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
+
 </head>
 
-<body>
-
-    <section>
+<body style=" background-color: #fff8ed; padding: 100px 400px;">
+    <section style="">
         <div>
-            <img src="/images/journal.jpeg" alt="Pema Journal" width="50%" />
+            <img src="/images/journal.jpeg" alt="Pema Journal" width="100%" />
         </div>
 
         <div>
-            <audio autoplay="true">
-                <source src="/audio/journal.mp3" />
-            </audio>
-        </div>
+            <h1 style="font-size: 75px;">
+                <span style="color: #00a896;">
+                    Journey into HTML:
+                </span>
+                A Glimpse into Pema's Life
 
-        <div>
-            <h1>Journey into HTML: A Glimpse into Pema's Life</h1>
+            </h1>
+            <hr style="width: 20px; margin-left: 0px;" />
+            <p>– By Pema</p>
             <hr />
             <p>In the quiet corners of Tasmania, amidst its serene landscapes and tranquil seas, Pema embarks on a
                 journey
@@ -71,6 +87,18 @@
                 diverse
                 ambitions and personal growth.
             </p>
+        </div>
+
+        <div>
+            <a href="/pema.html">
+                Visit my other blog: A Day in the Life of a Full Stack Developer: The Fun Side of Coding
+            </a>
+        </div>
+
+        <div>
+            <video controls width="50%">
+                <source src="/videos/journal.mp4" />
+            </video>
         </div>
     </section>
 </body>
